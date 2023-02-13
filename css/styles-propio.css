@@ -1,0 +1,75 @@
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.img-container img {
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+    filter: blur(2px);
+}
+
+
+nav {
+    position: absolute;
+    left: 25px;
+    top: 65px;
+    z-index: 2;
+
+}
+
+nav a {
+    background-color: rgba(238, 12, 12, 0.753);
+    ;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    box-shadow: 3px 2px 4px black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav a:hover {
+    background-color: rgb(167, 28, 18);
+    color: white;
+
+}
+
+.active {
+    background-color: rgb(167, 28, 18);
+    color: white;
+}
+
+.subtitulo {
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+}
+
+.logo img {
+    width: 5rem;
+    height: 5rem;
+
+}
+
+.sec-home {
+    margin-left: 10rem;
+    position: relative;
+    bottom: 7rem;
+    padding: 2rem;
+}
+
+.sec-about {
+    position: relative;
+    margin-left: 10rem;
+    bottom: 5rem;
+}
+
+.aside-contact {
+    position: relative;
+    margin-left: 10rem;
+    bottom: 5rem;
+}
