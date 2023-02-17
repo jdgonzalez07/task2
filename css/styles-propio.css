@@ -73,3 +73,8 @@ nav a:hover {
     margin-left: 10rem;
     bottom: 5rem;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+}
