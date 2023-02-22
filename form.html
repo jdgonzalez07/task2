@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Registration Form</title>
+  </head>
+
+  <body>
+    <div class="container-form">
+      <header>
+        <h1>Registration Form</h1>
+      </header>
+      <div class="form-player">
+        <form action="./show_data.html" method="get">
+          <div class="input-name">
+            <label for="firstName">Player´s First Name:</label>
+            <input type="text" id="firstName" />
+          </div>
+          <div class="input-name">
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" />
+          </div>
+          <div class="input-address">
+            <label for="address">Street Address:</label>
+            <input type="text" id="address" />
+          </div>
+          <div class="input-name">
+            <label for="city">City:</label>
+            <input type="text" id="city" />
+          </div>
+          <div class="input-name">
+            <label for="zip">Zip Code:</label>
+            <input type="text" id="zip" />
+          </div>
+          <div class="input-name">
+            <label for="birth">Birth Date(mm/dd/yyyy):</label>
+            <input type="date" id="birth" />
+          </div>
+          <div class="input-name">
+            <label>Gender:</label>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" />
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" />
+          </div>
+          <!--CHECKBOX DE GRADE-->
+          <div class="input-name">
+            <label for="grade">Grade:</label>
+            <input type="checkbox" name="pre-school" id="grade" />
+            <label class="pre-school" for="grade">Pre-School</label>
+            <input type="checkbox" name="pre-school" id="1st" />
+            <label class="school" for="1st">1st</label>
+            <input type="checkbox" name="pre-school" id="2nd" />
+            <label class="school" for="2nd">2nd</label>
+            <input type="checkbox" name="pre-school" id="3rd" />
+            <label class="school" for="3rd">3rd</label>
+            <input type="checkbox" name="pre-school" id="4th" />
+            <label class="school" for="4th">4th</label>
+            <input type="checkbox" name="pre-school" id="5th" />
+            <label class="school" for="5th">5th</label>
+          </div>
+          <!--CHECKBOX DE SCHOOL-->
+          <h3>Which elementary school do you live near ?</h3>
+          <h4>Closet school:</h4>
+          <div class="check-school">
+            <input type="checkbox" name="school" id="AJ" />
+            <label for="AJ">AJ Katzenmaier</label>
+            <input type="checkbox" name="school" id="greenbay" />
+            <label for="greenbay">Greenbay</label>
+            <input type="checkbox" name="school" id="howard" />
+            <label for="howard">Howard A Yeager</label>
+            <input type="checkbox" name="school" id="majorie" />
+            <label for="majorie">Majorie P Hart</label>
+            <input type="checkbox" name="school" id="north" />
+            <label for="north">North Elementary</label>
+            <input type="checkbox" name="school" id="south" />
+            <label for="south">South Elementary</label>
+          </div>
+          <h3>
+            What position(s) do you normally play ? (check all that apply)
+          </h3>
+          <!--CHECKBOX DE POSITION´S GAME-->
+          <div class="check-school">
+            <input type="checkbox" name="school" id="forward" />
+            <label for="forward">Forward</label>
+            <input type="checkbox" name="school" id="defense" />
+            <label for="defense">Defense</label>
+            <input type="checkbox" name="school" id="midfield" />
+            <label for="midfield">Midfield</label>
+            <input type="checkbox" name="school" id="goalkeeper" />
+            <label for="goalkeeper">Goalkeeper</label>
+          </div>
+          <h3>Uniform Size:</h3>
+          <!--CHECKBOX DE UNIFORM SIZE-->
+          <div class="check-school">
+            <input type="checkbox" name="size" id="yS" />
+            <label for="yS">Youth Small</label>
+            <input type="checkbox" name="size" id="yM" />
+            <label for="yM">Youth Medium</label>
+            <input type="checkbox" name="size" id="yL" />
+            <label for="yL">Youth Large</label>
+            <input type="checkbox" name="size" id="small" />
+            <label for="small">Small</label>
+            <input type="checkbox" name="size" id="medium" />
+            <label for="medium">Medium</label>
+            <input type="checkbox" name="size" id="large" />
+            <label for="large">Large</label>
+            <input type="checkbox" name="size" id="eL" />
+            <label for="eL">Extra-Large</label>
+          </div>
+          <h3>Permission to Play</h3>
+          <!--PERMISSION TO PLAY-->
+          <div class="permission">
+            <p>I; the parent or guardian of the minor registrant and i will abide by all the rules of the Mighty Ducks Hockey League (MDHL).In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" accepting the registrang for its hockey programs and activities, I hereby release, discharge. and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the activities , which transportation.</p>
+            <p>By signing below, I herebyagree andauthorizethe above.In addition, by signing below , I also acknowledge that I have read the cancellation policy and agree to its terms.</p>
+            <div class="input-address">
+              <label for="signature">Parent/GuardianSignature:</label>
+              <input type="text" id="signature" />
+            </div>
+            <div class="input-name">
+              <label for="date">Date:</label>
+              <input type="text" id="date" />
+            </div>
+            </div>
+            <div class="buttons">
+              <button class="btn-submit" type="submit">Enviar</button>
+              <button class="btn-reset" type="reset">Resetear</button>
+            </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

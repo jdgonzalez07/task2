@@ -1,9 +1,9 @@
-/* body {
+body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 
-} */
+}
 
 .container {
     display: flex;
@@ -60,6 +60,65 @@ h1 {
     display: flex;
     justify-content: space-around;
 }
+h2 {
+    display: flex;
+    justify-content: center;
+}
+.maps-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+} 
+.maps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 2rem;
+    font-size: 1.25rem;
+}
+ 
+@media (max-width:507px){
+    .banner .img-container{
+        display: flex;
+        width: 100%;
+    }
+    .banner nav {
+        margin-top: 1rem;
+        right: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .schedule{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .tabla {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width:85%;
+    }
+}
+@media (min-width:374px) and  (max-width: 468px){
+    .container{
+        width: 100%;
+    }
+    .additional {
+        text-align: center;
+    }
+    p {
+        text-align: center;
+    }
+}
+
 
 /*ESTILOS DEL HOME-ABOUT-CONTACT*/
 .container-home {
@@ -203,4 +262,124 @@ nav a:hover {
 
 .all-play ul li {
     list-style-type: circle;
+}
+
+/*ESTILOS DEL FORM*/
+.container-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    font-family:fantasy;
+}
+
+.form-player {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width:40%;
+}
+.input-name{ 
+    display: inline-block;
+    padding-left:3rem;
+    padding-top: 1rem;
+}
+input {
+  border: none;
+  border-bottom: 1px solid black;
+}
+.input-address{
+    display: flex;
+    width: 60%;
+    padding-top: 1rem;
+}
+.input-address input {
+    min-width: 100%;
+    min-height: 50%;
+}
+.school {
+    font-size: 13px;
+    position: relative;
+    bottom: 5px;
+}
+.pre-school {
+    margin-right: 1rem;
+}
+.check-school label {
+    margin-right: 1rem;
+    align-content: center;
+}
+
+@media(max-width: 375px){
+    .container-form{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+       
+    }
+    .input-address{
+        width: 100%;
+    }
+    
+
+}
+@media (max-width: 400px){
+    .container-form {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+       align-items: center;
+       width: 100%;
+    }
+    .input-permission{
+        display: flex;
+        align-items: center;
+        width: 40%;
+    }
+}
+@media (max-width: 485px){
+    .input-address{
+        width: 40%;
+    }
+}
+@media (max-width: 500px){
+    .input-name{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .container-form{
+        max-width: 100%;
+    }
+}
+.buttons {
+    margin-top: 2rem;
+}
+.btn-submit {
+    background-color: transparent;
+    padding: 5px;
+    color: slategray;
+    border: 1px solid rgb(20, 150, 25);
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.btn-submit:hover {
+    background-color: rgb(20, 150, 25);
+    cursor: pointer;
+    color: #fff;
+}
+.btn-reset {
+    background-color: slategray;
+    padding: 5px;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.btn-reset:hover {
+    background-color:dimgray;
+    cursor: pointer;
+    color: #fff;
 }
